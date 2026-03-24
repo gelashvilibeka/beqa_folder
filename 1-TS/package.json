@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "watch" : "tsc -w"
+  }
+}
