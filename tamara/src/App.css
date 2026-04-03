@@ -1,0 +1,180 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background-color: #18181c;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0px 38px 10px 20px;
+  align-items: center;
+  margin-top: 21px;
+  z-index: 999;
+  position: relative;
+  background-color: #18181c;
+  max-width: 1302px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 21px;
+  color: #b0b3b8;
+  align-items: center;
+  font-weight: 500;
+  word-spacing: -1px;
+}
+ul button {
+  border: none;
+  padding: 2px;
+  background-color: #18181c;
+}
+.search {
+  margin-left: 35px;
+}
+ul button:hover {
+  scale: 1.2;
+  transition: 400ms;
+  background-color: #1d1d1d;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ul li:hover {
+  color: rgb(240, 240, 240);
+  cursor: pointer;
+  transition: 400ms;
+}
+.line {
+  background-color: #3e3e3eac;
+  border: none;
+  height: 0.5px;
+  margin-top: 12px;
+}
+ul li {
+  align-items: center;
+  display: flex;
+}
+.news_title {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  overflow: hidden;
+  max-width: 1302px;
+  margin-top: 50px;
+  position: relative;
+}
+.newsphoto {
+  border-radius: 25px;
+  filter: brightness(75%);
+}
+.news_desc {
+  color: white;
+  max-width: 1300px;
+  position: absolute;
+  top: 14%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  word-spacing: -1px;
+  cursor: pointer;
+}
+.news_desc p {
+  font-size: 29px;
+  text-shadow: 1px 1px 2px black;
+}
+.news_desc a {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+.right {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1.4px solid black;
+  position: absolute;
+  top: 44%;
+  left: 95.5%;
+}
+.right svg path {
+  fill: #0f0f0f;
+  transition: fill 0.4s;
+}
+.right:hover {
+  cursor: pointer;
+  background-color: black;
+  transition: 0.4s;
+}
+.right:hover svg path {
+  fill: white !important;
+}
+.left {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1.4px solid black;
+  position: absolute;
+  top: 44%;
+  left: 1.5%;
+}
+.left svg path {
+  fill: #0f0f0f;
+  transition: fill 0.5s;
+}
+.left:hover {
+  cursor: pointer;
+  background-color: black;
+  transition: 0.5s;
+}
+.left:hover svg path {
+  fill: white !important;
+}
+.title {
+  font-size: 27px;
+  color: #d8d8d8;
+  margin-top: 90px;
+  width: 1300px; 
+  display: flex;
+  justify-content: space-between;
+}
+.services {
+  max-width: 1320px;
+  margin: auto;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  padding: 20px 0;
+}
+.all {
+  color: #b0b3b8cb;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: medium
+}
+.all:hover {
+  color: #007bff;
+  transition: 400ms;
+}
+
+
+
+@import "../variables/cards.css";
